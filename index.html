@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Jmovie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">Jmovie</div>
+  <input id="searchInput" type="text" placeholder="search">
+</header>
+
+<main>
+  <div id="movieGrid" class="movie-grid"></div>
+</main>
+
+<!-- MODAL -->
+<div id="movieModal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeModal" class="close">×</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
